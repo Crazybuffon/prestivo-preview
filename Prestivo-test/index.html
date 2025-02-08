@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Prestivo Pte Ltd – Coming Soon</title>
+
+  <!-- Import Trade Winds Font -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
+  </style>
+
+  <!-- Rubik Dirt Font -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- Fixed Background Layers -->
+  <div class="fixed-background">
+    <!-- First layer: video -->
+    <div class="bg-video">
+      <video autoplay muted loop playsinline id="bgVideo">
+        <source src="videos/background-video.mp4" type="video/mp4" />
+        <!-- fallback if needed -->
+      </video>
+    </div>
+    <!-- Second layer: cellar image -->
+    <div class="bg-cellar"></div>
+  </div>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-content">
+      <img src="images/logo.png" alt="Prestivo Logo" class="hero-logo" />
+  
+      <!-- Updated Title and Subtitle -->
+      <h1 class="hero-title">Unlocking aromas, revealing depth</h1>
+      <p class="hero-subtitle">
+        We are oxygenating… Soon, we will pour something extraordinary.<br> Stay tuned!
+      </p>
+  
+      <form class="hero-form">
+        <input
+          type="email"
+          name="email"
+          placeholder="Enter your email for updates"
+          required
+        />
+        <button type="submit">Notify Me</button>
+      </form>
+  
+      <!-- Scroll Indicator (if you are using it) -->
+      <div class="scroll-indicator">
+        <span>Scroll down to discover more</span>
+        <div class="arrow"></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="about slide-up" id="about">
+    <h2>About Prestivo</h2>
+    <p>
+      Prestivo Pte Ltd is a refined lifestyle brand, dedicated to bringing you
+      the very best in fine wines, gourmet foods, and elevated cultural
+      experiences. Our vision is to enrich lives through authenticity, elegance,
+      and unparalleled attention to detail.
+    </p>
+  </section>
+
+  <!-- Divisions Section -->
+  <section class="divisions" id="divisions">
+
+    <div class="division slide-up" id="excellar">
+      <div class="division-text">
+        <h3>Excellar by Prestivo</h3>
+        <p>
+          Excellar serves as your premier source for premium wines, extra virgin
+          olive oils, and gourmet foods. Whether you’re a connoisseur or a
+          discerning business, Excellar curates and delivers quality you can
+          taste.
+        </p>
+      </div>
+    </div>
+
+    <div class="division slide-up" id="novanite">
+      <div class="division-text">
+        <h3>NovaNite by Prestivo</h3>
+        <p>
+          NovaNite elevates social gatherings with curated experiences—think
+          fine wine pairings, gourmet dining, live music, and art exhibitions.
+          Each event is crafted to delight the senses and leave a lasting
+          impression.
+        </p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Contact/Newsletter Section -->
+  <section class="division slide-up contact" id="contact">
+    <h2>Stay Updated</h2>
+    <p>
+      Want to be the first to know when Prestivo officially launches? Enter your
+      email below, and we’ll keep you posted on our progress, upcoming events,
+      and exclusive releases.
+    </p>
+    <form class="contact-form">
+      <input type="email" name="email" placeholder="Your Email Address" required />
+      <button type="submit">Sign Me Up</button>
+    </form>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <p>&copy; 2025 Prestivo Pte Ltd. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Main JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>
